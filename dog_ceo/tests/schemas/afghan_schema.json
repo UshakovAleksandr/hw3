@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "message": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "string"
+                }
+            ]
+        },
+        "status": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "message",
+        "status"
+    ]
+}

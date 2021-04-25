@@ -1,0 +1,55 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": [
+        {
+            "type": "object",
+            "properties": {
+                "brewery_type": {
+                    "type": "string"
+                },
+                "city": {
+                    "type": "string"
+                },
+                "country": {
+                    "type": "string"
+                },
+                "created_at": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "obdb_id": {
+                    "type": "string"
+                },
+                "postal_code": {
+                    "type": "string"
+                },
+                "state": {
+                    "type": "string"
+                },
+
+                "updated_at": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "brewery_type",
+                "city",
+                "country",
+                "created_at",
+                "id",
+                "name",
+                "obdb_id",
+                "postal_code",
+                "state",
+                "updated_at"
+
+            ]
+        }
+    ]
+}

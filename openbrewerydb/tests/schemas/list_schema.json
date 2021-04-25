@@ -1,0 +1,85 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": [
+        {
+            "type": "object",
+            "properties": {
+                "address_2": {
+                    "type": "null"
+                },
+                "address_3": {
+                    "type": "null"
+                },
+                "brewery_type": {
+                    "type": "string"
+                },
+                "city": {
+                    "type": "string"
+                },
+                "country": {
+                    "type": "string"
+                },
+                "county_province": {
+                    "type": "null"
+                },
+                "created_at": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "latitude": {
+                    "type": "string"
+                },
+                "longitude": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "obdb_id": {
+                    "type": "string"
+                },
+                "phone": {
+                    "type": "string"
+                },
+                "postal_code": {
+                    "type": "string"
+                },
+                "state": {
+                    "type": "string"
+                },
+                "street": {
+                    "type": "string"
+                },
+                "updated_at": {
+                    "type": "string"
+                },
+                "website_url": {
+                    "type": "null"
+                }
+            },
+            "required": [
+                "address_2",
+                "address_3",
+                "brewery_type",
+                "city",
+                "country",
+                "county_province",
+                "created_at",
+                "id",
+                "latitude",
+                "longitude",
+                "name",
+                "obdb_id",
+                "phone",
+                "postal_code",
+                "state",
+                "street",
+                "updated_at",
+                "website_url"
+            ]
+        }
+    ]
+}

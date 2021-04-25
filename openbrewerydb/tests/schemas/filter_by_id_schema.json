@@ -1,0 +1,70 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "name": {
+            "type": "string"
+        },
+        "brewery_type": {
+            "type": "string"
+        },
+        "street": {
+        },
+        "address_2": {
+        },
+        "address_3": {
+        },
+        "city": {
+            "type": "string"
+        },
+        "county_province": {
+        },
+        "state": {
+            "type": "string"
+        },
+        "postal_code": {
+            "type": "string"
+        },
+        "country": {
+            "type": "string"
+        },
+        "longitude": {
+
+        },
+        "latitude": {
+
+        },
+        "phone": {
+        },
+        "website_url": {
+        },
+        "updated_at": {
+            "type": "string"
+        },
+        "created_at": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "brewery_type",
+        "street",
+        "address_2",
+        "address_3",
+        "city",
+        "county_province",
+        "state",
+        "postal_code",
+        "country",
+        "longitude",
+        "latitude",
+        "phone",
+        "website_url",
+        "updated_at",
+        "created_at"
+    ]
+}
