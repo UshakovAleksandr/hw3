@@ -38,3 +38,6 @@ def test_url_random_afghan(base_url, url_end, validation_schema_afghan):
     assert resp.status_code == 200
     assert resp.json().get("status") == "success"
     validate(instance=resp.json(), schema=validation_schema_afghan)
+
+
+#222
